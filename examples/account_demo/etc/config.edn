@@ -1,0 +1,8 @@
+{
+ ; http服务选项
+ :web-opts {:host "0.0.0.0" :port 8080 :join? false}
+
+ ; 数据库路径
+ :datomic-url "datomic:mem:db-name"                         ;内存版
+ ;:datomic-url "datomic:free://localhost:4334/db-name"       ;free版
+ }
